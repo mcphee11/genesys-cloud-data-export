@@ -1,0 +1,17 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "publish bigQueryUpload to GCP",
+      "type": "shell",
+      "command": "./bigQueryUpload/installBigQueryUpload.sh"
+    },
+    {
+      "label": "publish getDataQueries to GCP",
+      "type": "shell",
+      "command": "./getDataQueries/installGetDataQueries.sh"
+    }
+  ]
+}
